@@ -12,11 +12,11 @@
                 <img id="header-img" src="./images/categorie-worldmusic-audio-technica.jpg"></img>
                 <nav id="nav-bar">
                     <ul>
-                        <li class="nav-link"><a href="home.html">Home</a></li>
-                        <li class="nav-link"><a href="feature.html">Features</a></li>
-                        <li class="nav-link"><a href="demo.html">Demo</a></li>
-                        <li class="nav-link"><a href="products.html">Products</a></li>
-                        <li class="nav-link"><a href="subscribe.html">Subscribe</a></li>
+                        <li class="nav-link"><a href="#header">Home</a></li>
+                        <li class="nav-link"><a href="#feature1">Features</a></li>
+                        <li class="nav-link"><a href="#form-section">Subscribe</a></li>
+                        <li class="nav-link"><a href="#video">Demo</a></li>
+                        <li class="nav-link"><a href="#products">Products</a></li>                       
                     </ul>
                 </nav>
             </div>
@@ -45,61 +45,61 @@
         </section>
         <section id="form-section">
             <div class="container">
-            <p>Subscribe to Our Newsletter</p>
-            <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">                
-                <input id="email" type="email" placeholder="enter email">
-                <button id="submit" type="submit">Submit</button>
-            </form>
+                <h2>Subscribe to our Newsletter</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">                
+                    <input id="email" type="email" placeholder="Enter Your Mail-id">
+                    <button id="submit" type="submit">Submit</button>
+                </form>
             </div>
         </section>
         <section id="video">
             <div class="container">
                 <div class="video">
-                    <iframe width="854" height="480" src="https://www.youtube.com/embed/ERP8n-v31e8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe id="frame" src="https://www.youtube.com/embed/VGlPp7eAHS0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <div class="vid-desc">
-                    <p>Get a taste of our headphones</p>
+                    <h3>Get a taste of our headphones</h3>
                 </div>
             </div>
         </section>
-        <div class="container-flex">
+        <div id="products" class="container-flex">
             <div class="box-1">
-                <img src="./images/ATH_M40x_2_sq-500x500.jpg">
+                <img class="product-images" src="./images/ATH_M40x_2_sq-500x500.jpg">
                 <ul class="info">
                     <li>Cutting-edge engineering and robust construction</li>
                     <li>40mm drivers with rare earth magnets</li>
                     <li>Tuned flat for incredibly accurate sound monitoring</li>
                     <li>Detachable cable (2 cables included)</li>
                     <li>Price: Rs 7,499/-</li>
+                    <button class="order" type="submit">Order</button>
                 </ul>
-                <button class="order" type="submit">Order</button>
             </div>
             <div class="box-2">
-                <img src="./images/ATH_M50x_2_sq-500x500.jpg">
-                <ul class="info">
+                <img id="special-img" class="product-images" src="./images/ATH_M50x_2_sq-500x500.jpg">
+                <ul id="special-info" class="info">
                     <li>Critically acclaimed sonic performance</li>
                     <li>Proprietary 45 mm large-aperture drivers</li>
                     <li>Wide frequency range with exceptional audio clarity</li>
                     <li>Padded headband and earpads for comfort in extended use</li>
                     <li>Price: Rs 9,499/-</li>
+                    <button class="order" type="submit">Order</button>
                 </ul>
-                <button class="order" type="submit">Order</button>
             </div>
             <div class="box-3">
-                <img src="./images/ATH-M70x_1-500x500.jpg">
+                <img class="product-images" src="./images/ATH-M70x_1-500x500.jpg">
                 <ul class="info">
                     <li>M-Series flagship model, tuned for extremely accurate sound reproduction</li>
                     <li>Carefully crafted using key metal components for lasting durability</li>
                     <li>Circumaural design contours around the ears</li>
                     <li>90° swiveling earcups for easy, one-ear monitoring</li>
                     <li>Price: Rs 18,990/-</li>
+                    <button class="order" type="submit">Order</button>
                 </ul>
-                <button class="order" type="submit">Order</button>
             </div>
         </div>
         <footer id="footer">
             <div class="container">
-                <p>Audio Technica, Copyright &copy; 2018</p>
+                <p>Audio Technica, <span>Copyright</span> &copy; 2018</p>
             </div>
         </footer>
     </body>
